@@ -1,0 +1,28 @@
+{
+  "name": "fortify",
+  "version": "0.1.0",
+  "module": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "fortify": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "rules.toml",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "bun src/index.ts",
+    "build": "bun build.ts",
+    "link": "bun link",
+    "test": "bun test",
+    "check:w": "biome check --write",
+    "check": "biome check",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.6",
+    "@types/bun": "^1.3.14",
+    "typescript": "^7.0.2"
+  }
+}

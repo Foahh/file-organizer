@@ -1,0 +1,61 @@
+ignore = [
+    "desktop.ini",
+    "Thumbs.db",
+    "*.parts",
+    "*.crdownload",
+    "*.download",
+    "*.tmp",
+    "*.temp",
+    "**/Duplicates/**"
+]
+
+[mapping]
+
+Documents = [
+    "doc", "docx", "pdf", "txt", "ppt", "pptx", "xls", "xlsx",
+    "csv", "rtf", "tex", "md", "odt", "ods", "odp",
+    "pages", "numbers", "keynote", "xps"
+]
+
+Pictures = [
+    "jpg", "jpeg", "png", "gif", "bmp", "svg",
+    "tiff", "webp", "ico", "heic", "raw", "psd", "ai", "eps", "avif"
+]
+
+Music = [
+    "mp3", "wav", "wma", "ogg", "flac", "aac", "m4a", "mid",
+    "opus", "wv", "ape", "aiff"
+]
+
+Video = [
+    "mp4", "avi", "mkv", "flv", "mov", "wmv", "webm",
+    "mpg", "mpeg", "m4v", "3gp", "ts", "vob"
+]
+
+Compressed = [
+    "zip", "rar", "r0*", "r1*", "arj", "7z", "tar", "gz", "bz2",
+    "xz", "zst", "lz", "cab", "iso", "img"
+]
+
+Programs = [
+    "exe", "msi", "bat", "sh", "jar", "apk", "deb",
+    "rpm", "dmg", "appimage", "cmd", "ps1", "com",
+    "run", "bin", "app", "snap", "flatpak"
+]
+
+Code = [
+    "py", "java", "cpp", "c", "cs", "html", "css", "js", "php",
+    "sql", "ino", "json", "ts", "tsx", "jsx", "rs", "go", "rb",
+    "swift", "kt", "scala", "lua", "r", "dart", "vue", "svelte",
+    "yml", "yaml", "xml", "toml", "ini", "cfg", "conf"
+]
+
+Fonts = ["ttf", "otf", "woff", "woff2", "eot"]
+
+Ebooks = ["epub", "mobi", "azw", "azw3", "fb2", "djvu"]
+
+Models = ["stl", "obj", "fbx", "blend", "3ds", "dae", "gltf", "glb"]
+
+Torrents = ["torrent"]
+
+Databases = ["db", "sqlite", "sqlite3", "mdb", "accdb"]
