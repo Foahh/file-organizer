@@ -5,12 +5,7 @@ updates:
     schedule:
       interval: "weekly"
 
-  - package-ecosystem: "b"
-    directory: "u"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "/"
-    directory: ""
+  - package-ecosystem: "bun"
+    directory: "/"
     schedule:
       interval: "weekly"
